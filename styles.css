@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+}
+
+#hero {
+    background-image: url("images/bg.gif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 0 40px 0;
+    height: 600px;
+    
+}
+
+#main-logo {
+    width: 100px;
+    
+}
+
+#title {
+    text-shadow: 0px 0px 4px black;
+}
+
+.btn {
+    padding: 6px 12px;
+    background: #16225A;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    color: #FFFFFF;
+    font-weight: 800;
+    border-radius: 7px;
+    transition: transform 0.3s
+}
+
+.btn:hover{
+    background: #FFFFFF;
+    color: #16225A;
+    border: 1px solid white;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.underline {
+    border-bottom: 4px solid #F5F5F5;
+}
+   
+#hero span{
+    color: #4facfe;
+}
